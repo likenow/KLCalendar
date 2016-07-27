@@ -2,15 +2,15 @@
 
 ## 基本需求：
 
-在基本展示日历的基础上加上了一个签到功能，即点击签到按钮向服务器提交当天签到信息，同时改变日历上得显示样式。
+在基本展示日历的基础上加上了一个签到功能，即点击签到按钮向服务器提交当天签到信息，同时改变日历上的显示样式。
 
 
 ## 目录结构  
 
-Controller  控制器
-View  视图
-Model  模型
-Tool  一些扩展的方法+业务逻辑 
+- Controller  控制器
+- View  视图
+- Model  模型
+- Tool  一些扩展的方法+业务逻辑 
 
 ## 优化
 
@@ -18,6 +18,8 @@ Tool  一些扩展的方法+业务逻辑
 
 ## 声明 AND 致谢  
 
-在GitHub 上有浏览学习其他两款日历控件 分别是：
-    [WHUCalendar](https://github.com/tiger8888/WHUCalendar)
-    [RMCalendar 单价日历](https://github.com/chihaodong/RMCalendar)
+1. 在GitHub 上有浏览学习其他两款日历控件 分别是：
+- [WHUCalendar](https://github.com/tiger8888/WHUCalendar)
+- [RMCalendar 单价日历](https://github.com/chihaodong/RMCalendar)
+
+2. 感谢言午童鞋的测试
