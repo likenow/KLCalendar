@@ -19,7 +19,8 @@
 ## 声明 AND 致谢  
 
 1. 在GitHub 上有浏览学习其他两款日历控件 分别是：
-- [WHUCalendar](https://github.com/tiger8888/WHUCalendar)
-- [RMCalendar 单价日历](https://github.com/chihaodong/RMCalendar)
 
-2. 感谢言午童鞋的测试
+    - [WHUCalendar](https://github.com/tiger8888/WHUCalendar)
+    - [RMCalendar 单价日历](https://github.com/chihaodong/RMCalendar)
+
+2. 感谢 言午 童鞋的测试
