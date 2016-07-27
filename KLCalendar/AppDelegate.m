@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KLSICalendarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    KLSICalendarViewController *sicVc=[[KLSICalendarViewController alloc] init];
+    self.window.rootViewController = sicVc;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
