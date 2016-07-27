@@ -8,6 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KLConst : NSObject
+#ifdef DEBUG
+#define KLog(...) NSLog(__VA_ARGS__)
+#else
+#define KLog(...)
+#endif
 
-@end
+#define kUISCREENWIDTH  [UIScreen mainScreen].bounds.size.width     // 屏幕高度
+#define kUISCREENHEIGHT [UIScreen mainScreen].bounds.size.height    // 屏幕宽度
+#define WEAKSELF typeof(self) __weak weakSelf = self; // 弱引用
+
+extern NSString *const Monday;
+extern NSString *const Tuesday;
+extern NSString *const Wednesday;
+extern NSString *const Thursday;
+extern NSString *const Friday;
+extern NSString *const Saturday;
+extern NSString *const Sunday;
